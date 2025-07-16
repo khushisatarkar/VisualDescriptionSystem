@@ -1,0 +1,6 @@
+annotations/
+Images/
+
+*.json
+venv/
+.env/
