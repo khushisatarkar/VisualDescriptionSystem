@@ -23,19 +23,21 @@ Training: Uses teacher forcing with padded sequences and categorical crossentrop
 ## 📁 Project Structure
 VisualDescriptionSystem/
 
-├── Images/                 # Dataset images
+├── .gitignore
 
-├── caption_model.h5
+├── README.md
 
-├── captions.txt 
+├── app.py 
+
+├── caption_model.keras
 
 ├── model.png
 
-├── tokenizer.pkl
-
 ├── VisualDescriptionSystem.ipynb  
 
-└── README.md
+├── requirements.txt
+
+└── tokenizer.pkl
 
 ## 🧪 To Do
 Add support for other datasets (like MS COCO)
