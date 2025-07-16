@@ -44,7 +44,7 @@ def greedy_generator(image_features):
         in_text += ' ' + word
 
         # optional repetition stopper
-        if in_text.strip().split()[-3:] == [word]*3:
+        if in_text.strip().split()[-1:] == [word]*1:
             break
 
     return in_text.replace('start ', '')
