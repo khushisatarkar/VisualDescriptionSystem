@@ -12,42 +12,47 @@
 - Supports greedy decoding and beam search for caption generation.
 - Clean and modular Jupyter Notebook implementation.
 
-
 ## 🧠 Model Overview
-Encoder: CNN (InceptionV3 or ResNet50) to extract image features.
+
+Encoder: CNN (InceptionV3) to extract image features.
 
 Decoder: RNN (LSTM) with an embedding layer and a dense output layer.
 
 Training: Uses teacher forcing with padded sequences and categorical crossentropy loss.
 
 ## 📁 Project Structure
+
 VisualDescriptionSystem/
 
 ├── .gitignore
 
 ├── README.md
 
-├── app.py 
+├── app.py
 
 ├── caption_model.keras
 
 ├── model.png
 
-├── VisualDescriptionSystem.ipynb  
+├── VisualDescriptionSystem.ipynb
 
 ├── requirements.txt
 
 └── tokenizer.pkl
 
 ## 🧪 To Do
+
 Add support for other datasets (like MS COCO)
 
 Replace RNN decoder with a Transformer
 
-Deploy as a simple web app (Flask or Streamlit)
+Improve accuracy for unknown images
+
+Deploy as a simple web app (Streamlit)
 
 ## 🙋‍♀️ Author
+
 Khushi Satarkar
 
 Feel free to reach out or connect with me!
- [LinkedIn](https://www.linkedin.com/in/khushi-satarkar-039056254/) | [Email](mailto:khushisatarkar24@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/khushi-satarkar-039056254/) | [Email](mailto:khushisatarkar24@gmail.com)
