@@ -1,7 +1,15 @@
 annotations/
 Images/
 captions.txt
+Flickr_Data/
+train.py
+preprocess.py
+train_encoded_images.p 
 
 *.json
 venv/
 .env/
+
+.ipynb_checkpoints/
+.streamlit/
+__pycache__/
