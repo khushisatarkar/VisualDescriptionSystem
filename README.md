@@ -12,6 +12,10 @@
 - Supports greedy decoding and beam search for caption generation.
 - Clean and modular Jupyter Notebook implementation.
 
+## 🛠️ Working
+Description generated after user uploads an image.
+<img width="1904" height="846" alt="image" src="https://github.com/user-attachments/assets/847ffeb9-ab21-4bcf-be4d-38866776e319" />
+
 ## 🧠 Model Overview
 
 Encoder: CNN (InceptionV3) to extract image features.
